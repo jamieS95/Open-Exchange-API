@@ -12,10 +12,12 @@ Exchanges could implement this alongside their own api folder "/api/".
  
 
 GET /oea/information
+--------------------
+
 *no login required 
 we could use this to alert us to update our scripts to the latest oea version.
 for version compatability for new and old versions of the api. 
-------------------
+
 
     {
     "supportedversions" : [{"version":1},{"version":2}] 
