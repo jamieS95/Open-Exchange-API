@@ -16,9 +16,10 @@ GET /oea/information
 we could use this to alert us to update our scripts to the latest oea version.
 for version compatability for new and old versions of the api. 
 ------------------
-{
+
+    {
     "supportedversions" : [{"version":1},{"version":2}] 
-}
+    }
 
 GET /oea/v1/coinlist/
 *no login required
