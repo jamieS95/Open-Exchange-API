@@ -15,6 +15,7 @@ GET /oea/information
 --------------------
 
 *no login required 
+
 we could use this to alert us to update our scripts to the latest oea version.
 for version compatability for new and old versions of the api. 
 
@@ -24,9 +25,11 @@ for version compatability for new and old versions of the api.
     }
 
 GET /oea/v1/coinlist/
+--------------------
+
 *no login required
+
 This will provide us with the nessessary information for each coin.
-------------------
 {
     {
         "symbol":"BTC",
