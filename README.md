@@ -11,7 +11,7 @@ Exchanges could implement this alongside their own api folder "/api/".
 
  
 
-GET /oea/information
+GET /oea/information/
 --------------------
 
 *no login required 
