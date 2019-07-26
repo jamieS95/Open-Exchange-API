@@ -18,7 +18,9 @@ if (!isset($_GET['version']) && ($_GET['action'] == 'information')){
 	if($_GET['version'] == '1'){
 		switch($_GET['action']){
 			case 'coinlist':
-				die(json_encode(array('error' => 1,'errormsg'=>'coinlist')));
+				$ret[] = array("symbol"=>"BTC", "withdrawal_fee"=>0.0001, "min_withdrawal"=>0.001, "withdrawal_suspended"=>false, "deposit_fee"=>0.00000, "min_deposit"=>0.001, "deposit_suspended"=>false);
+				$ret[] = array("symbol"=>"LTC", "withdrawal_fee"=>0.0001, "min_withdrawal"=>0.001, "withdrawal_suspended"=>false, "deposit_fee"=>0.00000, "min_deposit"=>0.001, "deposit_suspended"=>false);
+				die(json_encode($ret));
 				break;
 			case 'tradingpairs':
 				die(json_encode(array('error' => 1,'errormsg'=>'tradingpairs')));			

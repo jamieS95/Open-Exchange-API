@@ -29,27 +29,7 @@ GET /oea/v1/coinlist/
 
 This will provide us with the nessessary information for each coin.
 
-    {
-        {
-            "symbol":"BTC",
-            "withdrawal_fee":0.0001,
-            "min_withdrawal":0.001,
-            "withdrawal_suspended":false,
-            "deposit_fee":0.00000,
-            "min_deposit":0.001,
-            "deposit_suspended":false,
-        },
-        {
-            "symbol":"BTC",
-            "withdrawal_fee":0.0001,
-            "min_withdrawal":0.001,
-            "withdrawal_suspended":false,
-            "deposit_fee":0.00000,
-            "min_deposit":0.001,
-            "deposit_suspended":false,
-        },
-    ...
-    }
+    [{"symbol":"BTC","withdrawal_fee":0.0001,"min_withdrawal":0.001,"withdrawal_suspended":false,"deposit_fee":0,"min_deposit":0.001,"deposit_suspended":false},{"symbol":"BTC","withdrawal_fee":0.0001,"min_withdrawal":0.001,"withdrawal_suspended":false,"deposit_fee":0,"min_deposit":0.001,"deposit_suspended":false}]
 
 GET /oea/v1/tradingpairs/
 ------------------
