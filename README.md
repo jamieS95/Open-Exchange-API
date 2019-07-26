@@ -20,9 +20,7 @@ we could use this to alert us to update our scripts to the latest oea version.
 for version compatability for new and old versions of the api. 
 
 
-    {
-    "supportedversions" : [{"version":1},{"version":2}] 
-    }
+    {"supportedversions":["1"],"error":false,"errormsg":""}
 
 GET /oea/v1/coinlist/
 --------------------

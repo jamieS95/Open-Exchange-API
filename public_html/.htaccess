@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteRule ^api/v([0-9]+)/([a-z0-9]+)/$ ./oea.php?version=$1&action=$2 [L]
+	RewriteRule ^api/([a-z0-9]+)/$ ./oea.php?action=$1 [L] 
+</IfModule>
