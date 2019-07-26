@@ -32,8 +32,8 @@ if (!isset($_GET['version']) && ($_GET['action'] == 'information')){
 					$myObj->deposit_suspended=false;
 					$myObj->withdrawal_limit='0.000000';
 					$myObj->withdrawal_current ='0.000000';
-					$myObj->balances[] = array("symbol"=> "BTC","avaiable"=> "4723846.89208129","inorder"=> "0.00000000");
-					$myObj->balances[] = array("symbol"=> "LTC","avaiable"=> "4723846.89208129","inorder"=> "0.00000000");
+					$myObj->balances[] = array("symbol"=> "BTC","available"=> "4723846.89208129","inorder"=> "0.00000000");
+					$myObj->balances[] = array("symbol"=> "LTC","available"=> "4723846.89208129","inorder"=> "0.00000000");
 					$myObj->error = false;
 					$myObj->errormsg = '';
 					die(json_encode($myObj));			

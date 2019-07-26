@@ -66,27 +66,7 @@ GET /oea/v1/account/
 
 some exchanges charge fee's based on a per user basis, we will try to cover all our bases to make this script compatiable with all exchanges.
 
-    {
-        "makerfee": 15,
-        "takerfee": 15, 
-        "trade_suspended": false,
-        "withdrawal_suspended": false,
-        "deposit_suspended": false,
-        "withdrawal_limit":"0.000000"
-        "withdrawal_current":"0.000000"
-        "balances":[
-            {
-            "symbol": "BTC",
-            "avaiable": "4723846.89208129",
-            "inorder": "0.00000000"
-            },
-            {
-            "symbol": "LTC",
-            "avaiable": "4763368.68006011",
-            "inorder": "0.00000000"
-            }
-        ]
-    }
+    {"makerfee":15,"takerfee":15,"trade_suspended":false,"withdrawal_suspended":false,"deposit_suspended":false,"withdrawal_limit":"0.000000","withdrawal_current":"0.000000","balances":[{"symbol":"BTC","available":"4723846.89208129","inorder":"0.00000000"},{"symbol":"LTC","available":"4723846.89208129","inorder":"0.00000000"}],"error":false,"errormsg":""}
     
 POST /oea/v1/neworder/
 ------------------
